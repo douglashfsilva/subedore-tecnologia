@@ -1,0 +1,39 @@
+# Dependências
+node_modules/
+
+# Arquivos e estado local do Cloudflare Wrangler
+.wrangler/
+.dev.vars
+.dev.vars.*
+
+# Variáveis de ambiente e segredos locais
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cobertura, cache e builds temporários
+coverage/
+.cache/
+.tmp/
+tmp/
+dist/
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos compactados gerados localmente
+*.zip

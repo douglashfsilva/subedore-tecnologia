@@ -1,15 +1,33 @@
-# Subedore Tecnologia — Landing Page
+# Subedore Tecnologia
 
-Landing page estática e responsiva da Subedore Tecnologia.
+Landing page institucional da Subedore Tecnologia, preparada para publicação como **Cloudflare Worker com Static Assets**.
 
-## Arquivos
+## Estrutura
 
-- `index.html`: estrutura e conteúdo da página.
-- `styles.css`: identidade visual e responsividade.
-- `script.js`: menu mobile, animações e envio do resumo pelo WhatsApp.
-- `assets/images/portfolio/`: logotipos utilizados na seção de portfólio.
-- `assets/images/subedore-wordmark.png`: marca utilizada no rodapé e compartilhamento.
+- `public/`: arquivos estáticos publicados no site;
+- `wrangler.toml`: configuração do Worker e da pasta de assets;
+- `package.json`: comandos de desenvolvimento e deploy.
 
-## Publicação
+## Desenvolvimento local
 
-O projeto não requer etapa de build. Publique a pasta diretamente no GitHub Pages, Cloudflare Pages ou outro serviço de hospedagem estática.
+```bash
+npm install
+npm run dev
+```
+
+## Deploy manual
+
+```bash
+npm run deploy
+```
+
+## Cloudflare Workers Builds
+
+Ao conectar este repositório ao Cloudflare Workers:
+
+- Production branch: `main`
+- Build command: deixar em branco
+- Deploy command: `npx wrangler deploy`
+- Root directory: deixar em branco
+
+O domínio `subedore.com.br` deve ser vinculado ao Worker após a validação do endereço `workers.dev`.
