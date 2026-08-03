@@ -1,12 +1,17 @@
-# Subedore Tecnologia
+# Subedore Tecnologia — v9.0
 
-Landing page institucional da Subedore Tecnologia, preparada para publicação como **Cloudflare Worker com Static Assets**.
+Landing page comercial da Subedore Tecnologia, preparada para Cloudflare Workers com Static Assets.
 
-## Estrutura
+## Principais recursos
 
-- `public/`: arquivos estáticos publicados no site;
-- `wrangler.toml`: configuração do Worker e da pasta de assets;
-- `package.json`: comandos de desenvolvimento e deploy.
+- narrativa comercial orientada a problemas e resultados;
+- hero com demonstração interativa do futuro assistente de descoberta;
+- três portas de entrada para presença digital, sistemas e automações;
+- serviços apresentados por transformação e benefícios;
+- portfólio em formato de estudos de caso;
+- pré-diagnóstico guiado com resumo enviado pelo WhatsApp;
+- processo, autoridade, FAQ e chamada comercial final;
+- layout responsivo e acessível.
 
 ## Desenvolvimento local
 
@@ -15,19 +20,8 @@ npm install
 npm run dev
 ```
 
-## Deploy manual
+## Publicação
 
 ```bash
 npm run deploy
 ```
-
-## Cloudflare Workers Builds
-
-Ao conectar este repositório ao Cloudflare Workers:
-
-- Production branch: `main`
-- Build command: deixar em branco
-- Deploy command: `npx wrangler deploy`
-- Root directory: deixar em branco
-
-O domínio `subedore.com.br` deve ser vinculado ao Worker após a validação do endereço `workers.dev`.

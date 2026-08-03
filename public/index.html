@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#060b16" />
-  <meta name="description" content="Transformando idéias em soluções digitais. Sites, sistemas, automações e produtos digitais sob medida." />
+  <meta name="theme-color" content="#050914" />
+  <meta name="description" content="Sites, sistemas e automações sob medida para vender melhor, organizar processos e fazer empresas crescerem com tecnologia." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://subedore.com.br/" />
 
   <meta property="og:site_name" content="Subedore Tecnologia" />
-  <meta property="og:title" content="Subedore Tecnologia" />
-  <meta property="og:description" content="Transformando idéias em soluções digitais." />
+  <meta property="og:title" content="Subedore Tecnologia | Soluções digitais para negócios" />
+  <meta property="og:description" content="Transformamos desafios de negócio em sites, sistemas e automações sob medida." />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="pt_BR" />
   <meta property="og:url" content="https://subedore.com.br/" />
@@ -19,11 +19,11 @@
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Subedore Tecnologia — Transformando idéias em soluções digitais." />
+  <meta property="og:image:alt" content="Subedore Tecnologia" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Subedore Tecnologia" />
-  <meta name="twitter:description" content="Transformando idéias em soluções digitais." />
+  <meta name="twitter:title" content="Subedore Tecnologia | Soluções digitais para negócios" />
+  <meta name="twitter:description" content="Transformamos desafios de negócio em sites, sistemas e automações sob medida." />
   <meta name="twitter:image" content="https://subedore.com.br/assets/images/og-subedore.jpg" />
 
   <link rel="icon" href="assets/images/favicon.ico" sizes="any" />
@@ -31,20 +31,22 @@
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png" />
   <link rel="manifest" href="site.webmanifest" />
 
-  <title>Subedore Tecnologia | Soluções digitais</title>
+  <title>Subedore Tecnologia | Sites, sistemas e automações</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=9.0.0" />
 </head>
 <body>
-  <div class="page-glow page-glow-one"></div>
-  <div class="page-glow page-glow-two"></div>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <div class="page-noise" aria-hidden="true"></div>
+  <div class="page-glow page-glow-one" aria-hidden="true"></div>
+  <div class="page-glow page-glow-two" aria-hidden="true"></div>
 
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="#inicio" aria-label="Subedore Tecnologia — início">
-        <img src="assets/images/subedore-header-logo.png" alt="Subedore Tecnologia" width="250" height="44" />
+        <img src="assets/images/subedore-header-logo.png" alt="Subedore Tecnologia" width="280" height="50" />
       </a>
 
       <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
@@ -52,178 +54,267 @@
       </button>
 
       <nav id="main-nav" class="main-nav" aria-label="Navegação principal">
-        <a href="#servicos">Serviços</a>
         <a href="#solucoes">Soluções</a>
-        <a href="#portfolio">Portfólio</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#portfolio">Projetos</a>
         <a href="#processo">Processo</a>
-        <a href="#contato" class="nav-cta">Fale conosco</a>
+        <a href="#diagnostico" class="nav-cta">Estruturar meu projeto</a>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main id="conteudo">
     <section id="inicio" class="hero section">
       <div class="container hero-grid">
         <div class="hero-copy reveal">
-          <div class="eyebrow">TECNOLOGIA • ESTRATÉGIA • RESULTADOS</div>
-          <h1>Transformamos ideias em <span>soluções digitais</span>.</h1>
-          <p>
-            Criamos sites, sistemas, automações e produtos digitais sob medida,
-            combinando tecnologia, simplicidade e visão de negócio.
+          <div class="eyebrow">TECNOLOGIA PARA NEGÓCIOS REAIS</div>
+          <h1>Transformamos desafios do seu negócio em <span>soluções digitais.</span></h1>
+          <p class="hero-lead">
+            Criamos sites, sistemas e automações sob medida para empresas que querem vender melhor,
+            organizar processos e crescer com tecnologia.
           </p>
+
           <div class="hero-actions">
-            <a href="#contato" class="btn btn-primary">Iniciar um projeto</a>
-            <a href="#portfolio" class="btn btn-secondary">Ver portfólio</a>
+            <a href="#diagnostico" class="btn btn-primary">Quero estruturar meu projeto</a>
+            <a href="#portfolio" class="btn btn-secondary">Conhecer projetos realizados</a>
           </div>
-          <div class="hero-points">
-            <span>✓ Projetos sob medida</span>
-            <span>✓ Design responsivo</span>
-            <span>✓ Tecnologia escalável</span>
+
+          <div class="hero-proof" aria-label="Diferenciais">
+            <span><i></i>Diagnóstico antes do código</span>
+            <span><i></i>Soluções sob medida</span>
+            <span><i></i>Projeto publicado e acompanhado</span>
           </div>
         </div>
 
-        <div class="hero-visual reveal" aria-hidden="true">
-          <div class="hero-orb"></div>
-          <div class="hero-floor"></div>
-
-          <div class="hero-laptop">
-            <div class="hero-laptop-screen">
-              <div class="screen-shell">
-                <div class="screen-header">
-                  <span class="screen-brand">SUBEDORE</span>
-                  <div class="screen-actions"><i></i><i></i><i></i></div>
-                </div>
-
-                <div class="screen-body">
-                  <aside class="screen-sidebar">
-                    <span class="is-active">Dashboard</span>
-                    <span>Projetos</span>
-                    <span>Integrações</span>
-                    <span>Cloud</span>
-                    <span>Relatórios</span>
-                  </aside>
-
-                  <div class="screen-main">
-                    <div class="editor-window">
-                      <div class="editor-title">
-                        <strong>solution.ts</strong>
-                        <small>production</small>
-                      </div>
-
-                      <div class="editor-lines">
-                        <div class="code-line-row"><b>01</b><i class="code-line code-blue w-92"></i></div>
-                        <div class="code-line-row"><b>02</b><i class="code-line code-cyan w-74"></i></div>
-                        <div class="code-line-row"><b>03</b><i class="code-line code-blue w-84"></i></div>
-                        <div class="code-line-row"><b>04</b><i class="code-line code-green w-66"></i></div>
-                        <div class="code-line-row"><b>05</b><i class="code-line code-cyan w-79"></i></div>
-                        <div class="code-line-row"><b>06</b><i class="code-line code-amber w-58"></i></div>
-                      </div>
-                    </div>
-
-                    <div class="screen-panels">
-                      <div class="panel-card panel-uptime">
-                        <span>Disponibilidade</span>
-                        <div class="panel-ring"><strong>99,9%</strong></div>
-                        <small>infraestrutura estável</small>
-                      </div>
-
-                      <div class="panel-card panel-chart">
-                        <span>Entregas</span>
-                        <div class="mini-bars"><i></i><i></i><i></i><i></i><i></i></div>
-                      </div>
-                    </div>
-                  </div>
+        <div class="hero-assistant reveal" aria-label="Demonstração interativa do diagnóstico Subedore">
+          <div class="assistant-glow" aria-hidden="true"></div>
+          <div class="assistant-shell">
+            <div class="assistant-header">
+              <div class="assistant-profile">
+                <div class="assistant-avatar" aria-hidden="true">&lt;S/&gt;</div>
+                <div>
+                  <strong>Diagnóstico Subedore</strong>
+                  <small><i></i> demonstração interativa</small>
                 </div>
               </div>
+              <span class="assistant-badge">PRÉVIA</span>
             </div>
-            <div class="hero-laptop-base"></div>
+
+            <div id="assistant-conversation" class="assistant-conversation" aria-live="polite">
+              <div class="chat-message chat-assistant">
+                <span class="chat-label">Subedore</span>
+                <p>O que você deseja transformar no seu negócio?</p>
+              </div>
+            </div>
+
+            <div id="hero-chat-options" class="chat-options" aria-label="Escolha uma necessidade">
+              <button type="button" data-scenario="vendas">Quero gerar mais oportunidades</button>
+              <button type="button" data-scenario="processo">Preciso organizar um processo</button>
+              <button type="button" data-scenario="automacao">Quero reduzir tarefas manuais</button>
+              <button type="button" data-scenario="produto">Tenho uma ideia de sistema</button>
+            </div>
+
+            <div class="assistant-footer">
+              <span>Uma experiência inicial do futuro assistente de descoberta.</span>
+              <a href="#diagnostico">Fazer meu diagnóstico <b>→</b></a>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="trust-strip" aria-label="Áreas de atuação">
-      <div class="container trust-items">
-        <span>DESENVOLVIMENTO WEB</span>
-        <span>SISTEMAS SOB MEDIDA</span>
-        <span>AUTOMAÇÕES</span>
-        <span>CLOUD &amp; INFRAESTRUTURA</span>
+    <section class="brand-marquee" aria-label="Soluções e projetos digitais">
+      <div class="marquee-track">
+        <span>ESTRATÉGIA DIGITAL</span><i></i>
+        <span>SITES QUE CONVERTEM</span><i></i>
+        <span>SISTEMAS CORPORATIVOS</span><i></i>
+        <span>AUTOMAÇÃO DE PROCESSOS</span><i></i>
+        <span>PRODUTOS DIGITAIS</span><i></i>
+        <span>INFRAESTRUTURA CLOUD</span><i></i>
+        <span aria-hidden="true">ESTRATÉGIA DIGITAL</span><i aria-hidden="true"></i>
+        <span aria-hidden="true">SITES QUE CONVERTEM</span><i aria-hidden="true"></i>
+        <span aria-hidden="true">SISTEMAS CORPORATIVOS</span><i aria-hidden="true"></i>
       </div>
     </section>
 
-    <section id="servicos" class="section">
+    <section id="solucoes" class="section entry-section">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <div class="eyebrow">POR ONDE COMEÇAR</div>
+          <h2>O que você precisa <span>transformar hoje?</span></h2>
+          <p>Você não precisa conhecer a tecnologia certa. Comece pelo resultado que deseja alcançar.</p>
+        </div>
+
+        <div class="entry-grid">
+          <a class="entry-card reveal" href="#servicos" data-entry="presenca">
+            <div class="entry-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="9" width="36" height="27" rx="5"/><path d="M6 17h36M14 13h.01M19 13h.01M24 13h.01M16 42h16M24 36v6"/></svg>
+            </div>
+            <span class="entry-kicker">PRESENÇA DIGITAL</span>
+            <h3>Quero vender e me apresentar melhor</h3>
+            <p>Sites e landing pages que explicam seu valor, fortalecem sua marca e facilitam o contato de clientes.</p>
+            <strong>Explorar solução <b>↗</b></strong>
+          </a>
+
+          <a class="entry-card entry-card-featured reveal" href="#servicos" data-entry="sistema">
+            <span class="entry-highlight">MAIS ESTRATÉGICO</span>
+            <div class="entry-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><rect x="5" y="7" width="38" height="34" rx="6"/><path d="M5 16h38M15 25h8M15 31h15M33 23v10M37 23v10"/></svg>
+            </div>
+            <span class="entry-kicker">SISTEMAS CORPORATIVOS</span>
+            <h3>Quero organizar minha operação</h3>
+            <p>Centralize informações, usuários, processos, documentos e indicadores em um único ambiente.</p>
+            <strong>Explorar solução <b>↗</b></strong>
+          </a>
+
+          <a class="entry-card reveal" href="#servicos" data-entry="automacao">
+            <div class="entry-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M14 9h20v10H14zM8 29h13v10H8zM27 29h13v10H27zM24 19v6M14.5 25h19M14.5 25v4M33.5 25v4"/></svg>
+            </div>
+            <span class="entry-kicker">AUTOMAÇÕES</span>
+            <h3>Quero reduzir tarefas manuais</h3>
+            <p>Integre sistemas e automatize rotinas para diminuir retrabalho, erros e atividades repetitivas.</p>
+            <strong>Explorar solução <b>↗</b></strong>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section challenge-section">
+      <div class="container challenge-grid">
+        <div class="challenge-copy reveal">
+          <div class="eyebrow">TECNOLOGIA COMEÇA PELO PROBLEMA</div>
+          <h2>Sua empresa ainda depende demais de <span>controles manuais?</span></h2>
+          <p>
+            A tecnologia certa não começa pelo código. Começa entendendo o que toma tempo,
+            gera retrabalho ou impede sua empresa de avançar.
+          </p>
+          <a href="#diagnostico" class="text-link">Quero conversar sobre meu cenário <b>→</b></a>
+        </div>
+
+        <div class="challenge-board reveal" aria-label="Exemplos de desafios empresariais">
+          <div class="challenge-board-head">
+            <span>Cenário atual</span>
+            <div><i></i><i></i><i></i></div>
+          </div>
+          <div class="challenge-list">
+            <article>
+              <span class="challenge-status warning">!</span>
+              <div><strong>Informações espalhadas</strong><small>Planilhas, mensagens e arquivos sem visão centralizada.</small></div>
+              <b>Organizar</b>
+            </article>
+            <article>
+              <span class="challenge-status warning">!</span>
+              <div><strong>Tarefas repetitivas</strong><small>Tempo da equipe consumido em rotinas que podem ser automatizadas.</small></div>
+              <b>Automatizar</b>
+            </article>
+            <article>
+              <span class="challenge-status warning">!</span>
+              <div><strong>Presença digital fraca</strong><small>Seu site não transmite a qualidade real do seu negócio.</small></div>
+              <b>Posicionar</b>
+            </article>
+            <article class="challenge-solution">
+              <span class="challenge-status success">✓</span>
+              <div><strong>Solução conectada ao negócio</strong><small>Processos mais claros, dados acessíveis e uma experiência profissional.</small></div>
+              <b>Evoluir</b>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="section services-section">
       <div class="container">
         <div class="section-heading reveal">
-          <div class="eyebrow">O QUE FAZEMOS</div>
-          <h2>Tecnologia aplicada aos desafios do seu negócio.</h2>
-          <p>Da presença digital à automação de processos, entregamos soluções claras, modernas e eficientes.</p>
+          <div class="eyebrow">SOLUÇÕES ORIENTADAS A RESULTADOS</div>
+          <h2>Não entregamos apenas tecnologia. <span>Entregamos transformação.</span></h2>
+          <p>Cada solução é planejada para resolver um problema real e gerar valor para o negócio.</p>
         </div>
 
         <div class="services-grid">
           <article class="service-card reveal">
             <div class="service-media">
-              <img src="assets/images/services/sites-landing-pages.webp" alt="Notebook com código representando a criação de sites e landing pages" loading="lazy" width="720" height="405" />
+              <img src="assets/images/services/sites-landing-pages.webp" alt="Notebook representando a criação de sites e landing pages" loading="lazy" width="720" height="405" />
+              <span>01</span>
             </div>
             <div class="service-content">
-              <div class="service-number">01</div>
-              <h3>Sites e landing pages</h3>
-              <p>Páginas rápidas, responsivas e preparadas para apresentar sua marca e gerar oportunidades.</p>
+              <small>SITES E LANDING PAGES</small>
+              <h3>Transforme visitas em oportunidades.</h3>
+              <p>Páginas profissionais, rápidas e direcionadas para apresentar sua empresa, fortalecer sua marca e facilitar o contato.</p>
+              <ul><li>Estratégia de conteúdo</li><li>Design responsivo</li><li>Contato e conversão</li></ul>
             </div>
           </article>
+
           <article class="service-card reveal">
             <div class="service-media">
-              <img src="assets/images/services/sistemas-sob-medida.webp" alt="Aplicação digital representando sistemas desenvolvidos sob medida" loading="lazy" width="720" height="405" />
+              <img src="assets/images/services/sistemas-sob-medida.webp" alt="Aplicação representando sistemas corporativos sob medida" loading="lazy" width="720" height="405" />
+              <span>02</span>
             </div>
             <div class="service-content">
-              <div class="service-number">02</div>
-              <h3>Sistemas sob medida</h3>
-              <p>Aplicações web criadas para organizar operações, dados, clientes e fluxos internos.</p>
+              <small>SISTEMAS CORPORATIVOS</small>
+              <h3>Organize sua operação em um só ambiente.</h3>
+              <p>Centralize processos, usuários, documentos, regras e indicadores em uma solução desenhada para sua realidade.</p>
+              <ul><li>Perfis e permissões</li><li>Fluxos de trabalho</li><li>Indicadores e relatórios</li></ul>
             </div>
           </article>
+
           <article class="service-card reveal">
             <div class="service-media">
-              <img src="assets/images/services/automacao-processos.webp" alt="Painel de indicadores representando automação de processos e integrações" loading="lazy" width="720" height="405" />
+              <img src="assets/images/services/automacao-processos.webp" alt="Indicadores representando automação de processos e integrações" loading="lazy" width="720" height="405" />
+              <span>03</span>
             </div>
             <div class="service-content">
-              <div class="service-number">03</div>
-              <h3>Automação de processos</h3>
-              <p>Integrações e rotinas inteligentes para reduzir tarefas repetitivas e aumentar produtividade.</p>
+              <small>AUTOMAÇÕES E INTEGRAÇÕES</small>
+              <h3>Ganhe tempo e reduza retrabalho.</h3>
+              <p>Automatize notificações, integrações e atividades que hoje dependem de execução manual da sua equipe.</p>
+              <ul><li>Integração de sistemas</li><li>Rotinas automáticas</li><li>Menos erros operacionais</li></ul>
             </div>
           </article>
+
           <article class="service-card reveal">
             <div class="service-media">
-              <img src="assets/images/services/cloud-publicacao.webp" alt="Nuvem digital representando hospedagem, publicação e infraestrutura" loading="lazy" width="720" height="405" />
+              <img src="assets/images/services/cloud-publicacao.webp" alt="Nuvem digital representando infraestrutura e publicação" loading="lazy" width="720" height="405" />
+              <span>04</span>
             </div>
             <div class="service-content">
-              <div class="service-number">04</div>
-              <h3>Cloud e publicação</h3>
-              <p>Configuração de domínio, hospedagem, GitHub, Cloudflare e infraestrutura para colocar projetos no ar.</p>
+              <small>CLOUD E EVOLUÇÃO</small>
+              <h3>Coloque o projeto no ar com segurança.</h3>
+              <p>Domínio, hospedagem, publicação, versionamento e uma estrutura preparada para crescer junto com o projeto.</p>
+              <ul><li>Cloudflare e GitHub</li><li>Deploy e domínio</li><li>Manutenção e evolução</li></ul>
             </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="solucoes" class="section solutions-section">
-      <div class="container solutions-grid">
-        <div class="solutions-copy reveal">
-          <div class="eyebrow">DIFERENCIAIS</div>
-          <h2>Mais do que código: entendimento, estratégia e execução.</h2>
-          <p>Projetamos cada solução pensando no usuário, na operação e no crescimento do negócio.</p>
-          <ul class="feature-list">
-            <li><span>01</span><div><strong>Visão de produto</strong><small>Construção orientada a objetivos reais.</small></div></li>
-            <li><span>02</span><div><strong>Experiência simples</strong><small>Interfaces claras, modernas e intuitivas.</small></div></li>
-            <li><span>03</span><div><strong>Base tecnológica sólida</strong><small>Projetos organizados para evoluir com segurança.</small></div></li>
-          </ul>
+    <section class="section transformation-section">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <div class="eyebrow">DA IDEIA AO PROJETO</div>
+          <h2>Um caminho claro entre o problema e a <span>solução em operação.</span></h2>
+          <p>Você traz o cenário. A Subedore ajuda a estruturar, priorizar e transformar.</p>
         </div>
 
-        <div class="solution-panel reveal">
-          <div class="panel-line"></div>
-          <div class="panel-content">
-            <span class="panel-label">SUBEDORE METHOD</span>
-            <h3>Entender.<br />Construir.<br /><span>Evoluir.</span></h3>
-            <p>Uma abordagem direta para transformar necessidades em produtos digitais úteis.</p>
-          </div>
+        <div class="transformation-flow reveal">
+          <article class="flow-step is-active" data-flow="0">
+            <span>01</span><strong>Problema</strong><small>Você conta o cenário atual.</small>
+          </article>
+          <i aria-hidden="true"></i>
+          <article class="flow-step" data-flow="1">
+            <span>02</span><strong>Diagnóstico</strong><small>Organizamos necessidades e objetivos.</small>
+          </article>
+          <i aria-hidden="true"></i>
+          <article class="flow-step" data-flow="2">
+            <span>03</span><strong>Solução</strong><small>Desenhamos fluxos, telas e prioridades.</small>
+          </article>
+          <i aria-hidden="true"></i>
+          <article class="flow-step" data-flow="3">
+            <span>04</span><strong>MVP</strong><small>Construímos o essencial primeiro.</small>
+          </article>
+          <i aria-hidden="true"></i>
+          <article class="flow-step" data-flow="4">
+            <span>05</span><strong>Evolução</strong><small>Publicamos, medimos e melhoramos.</small>
+          </article>
         </div>
       </div>
     </section>
@@ -231,127 +322,229 @@
     <section id="portfolio" class="section portfolio-section">
       <div class="container">
         <div class="section-heading reveal">
-          <div class="eyebrow">PORTFÓLIO</div>
-          <h2>Projetos criados para necessidades reais.</h2>
-          <p>Conheça algumas soluções desenvolvidas e publicadas pela Subedore Tecnologia.</p>
+          <div class="eyebrow">PROJETOS REAIS, PUBLICADOS E EM EVOLUÇÃO</div>
+          <h2>Soluções desenvolvidas para <span>necessidades reais.</span></h2>
+          <p>Mais do que telas bonitas: cada projeto parte de um desafio e entrega uma solução aplicável.</p>
         </div>
 
         <div class="portfolio-grid">
-          <a class="portfolio-card portfolio-energy reveal" href="https://energia.subedore.com.br" target="_blank" rel="noopener noreferrer" aria-label="Abrir projeto Subedore Energia em nova guia">
-            <div class="portfolio-energy-copy">
+          <a class="portfolio-card portfolio-energy reveal" href="https://energia.subedore.com.br" target="_blank" rel="noopener noreferrer" aria-label="Abrir Subedore Energia em nova guia">
+            <div class="case-copy">
               <div class="portfolio-topline"><span>SISTEMA CORPORATIVO</span><span aria-hidden="true">↗</span></div>
-              <div class="portfolio-logo portfolio-logo-energy">
-                <img src="assets/images/portfolio/subedore-energia.svg" alt="Logo Subedore Energia" />
-              </div>
-              <div>
-                <h3>Subedore Energia</h3>
-                <p>Plataforma para gestão de energia compartilhada, com controle de unidades consumidoras, leituras, distribuição, demonstrativos e acompanhamento financeiro.</p>
-                <small>energia.subedore.com.br</small>
-              </div>
+              <div class="portfolio-logo portfolio-logo-energy"><img src="assets/images/portfolio/subedore-energia.svg" alt="Logo Subedore Energia" /></div>
+              <h3>Gestão de energia compartilhada</h3>
+              <div class="case-block"><small>DESAFIO</small><p>Organizar unidades consumidoras, leituras, distribuição de energia e demonstrativos mensais.</p></div>
+              <div class="case-block"><small>SOLUÇÃO</small><p>Plataforma corporativa que centraliza a operação, regras de cobrança, indicadores e acompanhamento financeiro.</p></div>
+              <strong>Conhecer o sistema <b>→</b></strong>
             </div>
             <div class="energy-showcase" aria-hidden="true">
-              <div class="energy-sun"></div>
-              <div class="energy-panel">
-                <span></span><span></span><span></span><span></span>
-                <span></span><span></span><span></span><span></span>
-                <span></span><span></span><span></span><span></span>
-              </div>
-              <div class="energy-line"></div>
-              <div class="energy-home"><i></i></div>
-              <div class="energy-data">
-                <strong>3.200 kWh</strong>
-                <span>Gestão e distribuição</span>
-              </div>
+              <div class="energy-orbit orbit-one"></div><div class="energy-orbit orbit-two"></div>
+              <div class="energy-panel"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+              <div class="energy-metric"><small>GESTÃO MENSAL</small><strong>3.200 kWh</strong><span>dados, distribuição e resultados</span></div>
             </div>
           </a>
 
-          <a class="portfolio-card reveal" href="https://arkeion.subedore.com.br" target="_blank" rel="noopener noreferrer" aria-label="Abrir projeto Arkeion em nova guia">
+          <a class="portfolio-card reveal" href="https://arkeion.subedore.com.br" target="_blank" rel="noopener noreferrer" aria-label="Abrir Arkeion em nova guia">
             <div class="portfolio-topline"><span>PRODUTO DIGITAL</span><span aria-hidden="true">↗</span></div>
-            <div class="portfolio-logo portfolio-logo-arkeion">
-              <img src="assets/images/portfolio/arkeion.png" alt="Logo Arkeion" />
-            </div>
-            <div>
-              <h3>Arkeion</h3>
-              <p>Biblioteca digital para catalogar livros, organizar temas, acompanhar leituras e transformar acervo em conhecimento acessível.</p>
-              <small>arkeion.subedore.com.br</small>
-            </div>
+            <div class="portfolio-logo portfolio-logo-arkeion"><img src="assets/images/portfolio/arkeion.png" alt="Logo Arkeion" /></div>
+            <h3>Arkeion</h3>
+            <p>Biblioteca digital para catalogar acervo, organizar temas, acompanhar leituras e transformar livros em conhecimento acessível.</p>
+            <div class="portfolio-impact"><span>Organização</span><span>Busca</span><span>Conhecimento</span></div>
           </a>
 
-          <a class="portfolio-card reveal" href="https://befonseca.com.br" target="_blank" rel="noopener noreferrer" aria-label="Abrir projeto Bê Fonseca em nova guia">
+          <a class="portfolio-card reveal" href="https://befonseca.com.br" target="_blank" rel="noopener noreferrer" aria-label="Abrir Bê Fonseca em nova guia">
             <div class="portfolio-topline"><span>LANDING PAGE</span><span aria-hidden="true">↗</span></div>
-            <div class="portfolio-logo portfolio-logo-be">
-              <img src="assets/images/portfolio/be-fonseca.png" alt="Logo Bê Fonseca" />
-            </div>
-            <div>
-              <h3>Bê Fonseca</h3>
-              <p>Presença digital para ateliê gourmet, com apresentação de bolos e cestas, identidade visual e contato direto pelo WhatsApp.</p>
-              <small>befonseca.com.br</small>
-            </div>
+            <div class="portfolio-logo portfolio-logo-be"><img src="assets/images/portfolio/be-fonseca.png" alt="Logo Bê Fonseca" /></div>
+            <h3>Bê Fonseca</h3>
+            <p>Presença digital para apresentar produtos artesanais, fortalecer a identidade e levar clientes diretamente ao WhatsApp.</p>
+            <div class="portfolio-impact"><span>Marca</span><span>Produtos</span><span>Conversão</span></div>
           </a>
 
-          <a class="portfolio-card reveal" href="https://automotiveplacas.com.br" target="_blank" rel="noopener noreferrer" aria-label="Abrir projeto Automotive Placas em nova guia">
-            <div class="portfolio-topline"><span>PORTAL INSTITUCIONAL</span><span aria-hidden="true">↗</span></div>
-            <div class="portfolio-logo portfolio-logo-automotive">
-              <img src="assets/images/portfolio/automotive.webp" alt="Logo Automotive Placas" />
-            </div>
-            <div>
-              <h3>Automotive Placas</h3>
-              <p>Site institucional para estampadora de placas veiculares, com atendimento regional, informações de serviços e conteúdo.</p>
-              <small>automotiveplacas.com.br</small>
-            </div>
+          <a class="portfolio-card reveal" href="https://automotiveplacas.com.br" target="_blank" rel="noopener noreferrer" aria-label="Abrir Automotive Placas em nova guia">
+            <div class="portfolio-topline"><span>SITE INSTITUCIONAL</span><span aria-hidden="true">↗</span></div>
+            <div class="portfolio-logo portfolio-logo-automotive"><img src="assets/images/portfolio/automotive.webp" alt="Logo Automotive Placas" /></div>
+            <h3>Automotive Placas</h3>
+            <p>Site institucional para explicar serviços, ampliar a presença regional e facilitar atendimento, localização e contato.</p>
+            <div class="portfolio-impact"><span>SEO local</span><span>Serviços</span><span>Contato</span></div>
           </a>
 
-          <a class="portfolio-card reveal" href="https://tompersonal.com.br" target="_blank" rel="noopener noreferrer" aria-label="Abrir projeto Tom Personal em nova guia">
+          <a class="portfolio-card reveal" href="https://tompersonal.com.br" target="_blank" rel="noopener noreferrer" aria-label="Abrir Tom Personal em nova guia">
             <div class="portfolio-topline"><span>LANDING PAGE</span><span aria-hidden="true">↗</span></div>
-            <div class="portfolio-logo portfolio-logo-tom">
-              <img src="assets/images/portfolio/tom-brant.jpg" alt="Logo Tom Brant Personal Trainer" />
-            </div>
-            <div>
-              <h3>Tom Personal</h3>
-              <p>Landing page profissional para personal trainer, destacando serviços, área de atendimento, credenciais e canais de contato.</p>
-              <small>tompersonal.com.br</small>
-            </div>
+            <div class="portfolio-logo portfolio-logo-tom"><img src="assets/images/portfolio/tom-brant.jpg" alt="Logo Tom Brant Personal Trainer" /></div>
+            <h3>Tom Personal</h3>
+            <p>Landing page profissional para destacar serviços, credenciais e área de atendimento, transformando visitas em conversas.</p>
+            <div class="portfolio-impact"><span>Autoridade</span><span>Serviços</span><span>WhatsApp</span></div>
           </a>
         </div>
       </div>
     </section>
 
-    <section id="processo" class="section">
+    <section id="diagnostico" class="section diagnosis-section">
+      <div class="container diagnosis-shell reveal">
+        <div class="diagnosis-copy">
+          <div class="eyebrow">PRÉ-DIAGNÓSTICO INTERATIVO</div>
+          <h2>Estruture sua ideia em poucos passos.</h2>
+          <p>
+            Você não precisa chegar com tudo definido. Conte o cenário atual e receba um resumo inicial
+            para começar uma conversa mais produtiva com a Subedore.
+          </p>
+          <div class="diagnosis-benefits">
+            <span><i>✓</i> Identificação da necessidade provável</span>
+            <span><i>✓</i> Organização do objetivo do projeto</span>
+            <span><i>✓</i> Resumo pronto para enviar à equipe</span>
+          </div>
+          <small class="diagnosis-note">Esta versão é guiada e não utiliza IA. Ela prepara a experiência do futuro assistente de descoberta.</small>
+        </div>
+
+        <div class="diagnosis-card">
+          <div class="diagnosis-progress" aria-label="Progresso do diagnóstico">
+            <div><span id="diagnosis-progress-bar"></span></div>
+            <small><b id="diagnosis-step-current">1</b> de 5</small>
+          </div>
+
+          <form id="diagnosis-form">
+            <fieldset class="diagnosis-step is-active" data-step="1">
+              <legend>O que você deseja melhorar?</legend>
+              <p>Escolha a opção que mais se aproxima da sua necessidade.</p>
+              <div class="diagnosis-options">
+                <label><input type="radio" name="need" value="Criar ou melhorar um site" required /><span>Criar ou melhorar um site</span></label>
+                <label><input type="radio" name="need" value="Organizar processos em um sistema" /><span>Organizar processos em um sistema</span></label>
+                <label><input type="radio" name="need" value="Automatizar tarefas e integrações" /><span>Automatizar tarefas e integrações</span></label>
+                <label><input type="radio" name="need" value="Validar uma ideia de produto digital" /><span>Validar uma ideia de produto digital</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="diagnosis-step" data-step="2">
+              <legend>Como isso funciona atualmente?</legend>
+              <p>Explique brevemente o processo, dificuldade ou cenário atual.</p>
+              <textarea name="current" rows="5" maxlength="800" placeholder="Ex.: Hoje controlamos tudo em planilhas e mensagens de WhatsApp..." required></textarea>
+            </fieldset>
+
+            <fieldset class="diagnosis-step" data-step="3">
+              <legend>Quem utilizará a solução?</legend>
+              <p>Isso ajuda a entender a experiência e os níveis de acesso.</p>
+              <div class="diagnosis-options">
+                <label><input type="radio" name="users" value="Somente clientes ou visitantes" required /><span>Somente clientes ou visitantes</span></label>
+                <label><input type="radio" name="users" value="Equipe interna" /><span>Equipe interna</span></label>
+                <label><input type="radio" name="users" value="Equipe interna e clientes" /><span>Equipe interna e clientes</span></label>
+                <label><input type="radio" name="users" value="Ainda preciso definir" /><span>Ainda preciso definir</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="diagnosis-step" data-step="4">
+              <legend>Qual resultado você espera?</legend>
+              <p>Descreva a mudança que faria o projeto valer a pena.</p>
+              <textarea name="result" rows="5" maxlength="800" placeholder="Ex.: Quero reduzir o retrabalho, acompanhar prazos e ter relatórios..." required></textarea>
+            </fieldset>
+
+            <fieldset class="diagnosis-step" data-step="5">
+              <legend>Quando gostaria de começar?</legend>
+              <p>Não é um compromisso. Serve apenas para entendermos sua prioridade.</p>
+              <div class="diagnosis-options">
+                <label><input type="radio" name="timeline" value="O quanto antes" required /><span>O quanto antes</span></label>
+                <label><input type="radio" name="timeline" value="Nos próximos 30 dias" /><span>Nos próximos 30 dias</span></label>
+                <label><input type="radio" name="timeline" value="Nos próximos 3 meses" /><span>Nos próximos 3 meses</span></label>
+                <label><input type="radio" name="timeline" value="Ainda estou pesquisando" /><span>Ainda estou pesquisando</span></label>
+              </div>
+            </fieldset>
+
+            <div id="diagnosis-result" class="diagnosis-result" hidden>
+              <span class="result-kicker">DIAGNÓSTICO INICIAL</span>
+              <h3>Seu cenário já está mais claro.</h3>
+              <div id="diagnosis-summary" class="diagnosis-summary"></div>
+              <p>O próximo passo recomendado é uma conversa de descoberta para validar prioridades, funcionalidades e possibilidades.</p>
+              <button id="send-diagnosis" class="btn btn-primary btn-full" type="button">Enviar diagnóstico para a Subedore</button>
+              <button id="restart-diagnosis" class="button-link" type="button">Refazer diagnóstico</button>
+            </div>
+
+            <div id="diagnosis-controls" class="diagnosis-controls">
+              <button id="diagnosis-back" class="btn btn-secondary" type="button" disabled>Voltar</button>
+              <button id="diagnosis-next" class="btn btn-primary" type="button">Continuar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="processo" class="section process-section">
       <div class="container">
         <div class="section-heading reveal">
           <div class="eyebrow">COMO TRABALHAMOS</div>
-          <h2>Um processo simples, transparente e orientado à entrega.</h2>
+          <h2>Clareza em cada etapa. <span>Evolução sem complicação.</span></h2>
+          <p>Um processo colaborativo, transparente e direcionado para colocar valor em operação.</p>
         </div>
 
         <div class="process-grid">
           <article class="process-step reveal">
-            <div class="process-media">
-              <img src="assets/images/process/descoberta.webp" alt="Equipe reunida analisando necessidades durante a etapa de descoberta" loading="lazy" width="720" height="405" />
-              <span class="process-number">01</span>
-            </div>
-            <div class="process-content"><h3>Descoberta</h3><p>Entendemos o problema, o público e o objetivo do projeto.</p></div>
+            <div class="process-media"><img src="assets/images/process/descoberta.webp" alt="Equipe analisando necessidades durante a descoberta" loading="lazy" width="720" height="405" /><span>01</span></div>
+            <div class="process-content"><small>ENTENDER</small><h3>Descoberta</h3><p>Entendemos o problema, usuários, contexto e resultado esperado.</p></div>
           </article>
           <article class="process-step reveal">
-            <div class="process-media">
-              <img src="assets/images/process/planejamento.webp" alt="Esboços de interface representando a etapa de planejamento" loading="lazy" width="720" height="405" />
-              <span class="process-number">02</span>
-            </div>
-            <div class="process-content"><h3>Planejamento</h3><p>Definimos estrutura, prioridades, tecnologia e experiência.</p></div>
+            <div class="process-media"><img src="assets/images/process/planejamento.webp" alt="Esboços de interface durante o planejamento" loading="lazy" width="720" height="405" /><span>02</span></div>
+            <div class="process-content"><small>PRIORIZAR</small><h3>Planejamento</h3><p>Definimos escopo, fluxos, prioridades, tecnologia e experiência.</p></div>
           </article>
           <article class="process-step reveal">
-            <div class="process-media">
-              <img src="assets/images/process/desenvolvimento.webp" alt="Tela com código representando a etapa de desenvolvimento" loading="lazy" width="720" height="405" />
-              <span class="process-number">03</span>
-            </div>
-            <div class="process-content"><h3>Desenvolvimento</h3><p>Construímos, validamos e refinamos cada etapa da solução.</p></div>
+            <div class="process-media"><img src="assets/images/process/desenvolvimento.webp" alt="Tela com código durante o desenvolvimento" loading="lazy" width="720" height="405" /><span>03</span></div>
+            <div class="process-content"><small>CONSTRUIR</small><h3>Desenvolvimento</h3><p>Construímos, demonstramos e refinamos a solução em entregas.</p></div>
           </article>
           <article class="process-step reveal">
-            <div class="process-media">
-              <img src="assets/images/process/publicacao.webp" alt="Foguete decolando representando a publicação e o lançamento do projeto" loading="lazy" width="720" height="405" />
-              <span class="process-number">04</span>
-            </div>
-            <div class="process-content"><h3>Publicação</h3><p>Colocamos o projeto no ar e preparamos sua evolução.</p></div>
+            <div class="process-media"><img src="assets/images/process/publicacao.webp" alt="Foguete representando a publicação do projeto" loading="lazy" width="720" height="405" /><span>04</span></div>
+            <div class="process-content"><small>EVOLUIR</small><h3>Publicação</h3><p>Colocamos o projeto no ar e preparamos seus próximos passos.</p></div>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section authority-section">
+      <div class="container authority-card reveal">
+        <div class="authority-copy">
+          <div class="eyebrow">CONFIANÇA CONSTRUÍDA NA PRÁTICA</div>
+          <h2>Projetos digitais publicados e <span>em operação.</span></h2>
+          <p>
+            A Subedore une visão de negócio, experiência técnica e acompanhamento próximo para transformar
+            ideias em soluções que podem continuar evoluindo.
+          </p>
+        </div>
+        <div class="authority-list">
+          <span>Sistemas corporativos</span>
+          <span>Produtos digitais</span>
+          <span>Sites institucionais</span>
+          <span>Landing pages</span>
+          <span>Automações</span>
+          <span>Cloud e publicação</span>
+        </div>
+        <div class="authority-logos" aria-label="Projetos Subedore">
+          <strong>SUBEDORE ENERGIA</strong><strong>ARKEION</strong><strong>BÊ FONSECA</strong><strong>AUTOMOTIVE</strong><strong>TOM PERSONAL</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section">
+      <div class="container faq-grid">
+        <div class="faq-copy reveal">
+          <div class="eyebrow">DÚVIDAS ANTES DE COMEÇAR</div>
+          <h2>Você não precisa chegar com <span>tudo definido.</span></h2>
+          <p>Uma ideia, um problema ou um processo que precisa melhorar já é suficiente para iniciar a descoberta.</p>
+          <a href="#contato" class="text-link">Prefiro conversar diretamente <b>→</b></a>
+        </div>
+
+        <div class="faq-list reveal">
+          <details open>
+            <summary>Não sei exatamente o que preciso. Posso conversar mesmo assim?<span>+</span></summary>
+            <p>Sim. A etapa de descoberta existe justamente para organizar o problema, identificar prioridades e avaliar qual solução faz mais sentido.</p>
+          </details>
+          <details>
+            <summary>Todo projeto precisa começar grande?<span>+</span></summary>
+            <p>Não. Podemos definir um MVP com o essencial, validar a solução e evoluir por etapas conforme a necessidade do negócio.</p>
+          </details>
+          <details>
+            <summary>A Subedore trabalha apenas com sites?<span>+</span></summary>
+            <p>Não. Desenvolvemos sites, landing pages, sistemas corporativos, produtos digitais, automações e infraestrutura de publicação.</p>
+          </details>
+          <details>
+            <summary>O projeto pode evoluir depois da publicação?<span>+</span></summary>
+            <p>Sim. A estrutura é planejada para permitir manutenção, novas funcionalidades, integrações e melhoria contínua.</p>
+          </details>
         </div>
       </div>
     </section>
@@ -359,20 +552,21 @@
     <section id="contato" class="section contact-section">
       <div class="container contact-card reveal">
         <div class="contact-copy">
-          <div class="eyebrow">FALE SOBRE SEU PROJETO</div>
-          <h2>Sua próxima solução digital pode começar agora.</h2>
-          <p>Escreva um breve resumo, caso queira, e abra uma conversa diretamente com a equipe da Subedore Tecnologia.</p>
+          <div class="eyebrow">SUA PRÓXIMA SOLUÇÃO PODE COMEÇAR HOJE</div>
+          <h2>Conte o que precisa melhorar. <span>Nós ajudamos a transformar.</span></h2>
+          <p>Escreva um breve resumo e abra uma conversa diretamente com a equipe da Subedore Tecnologia.</p>
+          <div class="contact-reassurance">
+            <span>Sem compromisso</span><span>Conversa objetiva</span><span>Orientação inicial</span>
+          </div>
         </div>
 
         <form id="project-form" class="project-form">
-          <label for="project-summary">Resumo do projeto <span>(opcional)</span></label>
-          <textarea id="project-summary" name="project-summary" rows="5" maxlength="1200" placeholder="Conte-nos sobre seu projeto, desafio ou idéia..."></textarea>
-          <div class="form-footer">
-            <button class="btn btn-primary btn-large" type="submit">
-              <svg class="button-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M20.5 11.8a8.5 8.5 0 0 1-12.6 7.4L3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 20.5 11.8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.3 7.8c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.7 1.7c.1.3 0 .5-.1.7l-.6.7c-.2.2-.2.4-.1.6.5 1.1 1.4 2 2.5 2.6.2.1.4.1.6-.1l.8-.9c.2-.2.4-.2.7-.1l1.6.8c.3.1.4.3.4.5 0 .3-.2 1.4-.9 2-.6.5-1.4.7-2.2.5-1.3-.3-2.9-1-4.6-2.5-1.4-1.3-2.4-2.9-2.7-4.2-.2-.8 0-1.6.4-2.3Z" fill="currentColor"/></svg>
-              Enviar pelo WhatsApp
-            </button>
-          </div>
+          <label for="project-summary">Conte brevemente seu desafio ou sua ideia <span>(opcional)</span></label>
+          <textarea id="project-summary" name="project-summary" rows="6" maxlength="1200" placeholder="Ex.: Hoje controlamos solicitações em planilhas e WhatsApp. Gostaria de centralizar o processo, acompanhar prazos e gerar relatórios."></textarea>
+          <button class="btn btn-primary btn-large btn-full" type="submit">
+            <svg class="button-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M20.5 11.8a8.5 8.5 0 0 1-12.6 7.4L3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 20.5 11.8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.3 7.8c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.7 1.7c.1.3 0 .5-.1.7l-.6.7c-.2.2-.2.4-.1.6.5 1.1 1.4 2 2.5 2.6.2.1.4.1.6-.1l.8-.9c.2-.2.4-.2.7-.1l1.6.8c.3.1.4.3.4.5 0 .3-.2 1.4-.9 2-.6.5-1.4.7-2.2.5-1.3-.3-2.9-1-4.6-2.5-1.4-1.3-2.4-2.9-2.7-4.2-.2-.8 0-1.6.4-2.3Z" fill="currentColor"/></svg>
+            Estruturar meu projeto com a Subedore
+          </button>
         </form>
       </div>
     </section>
@@ -381,32 +575,23 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-branding">
-        <div class="footer-brand">
-          <img src="assets/images/subedore-logo.png" alt="Subedore Tecnologia" width="835" height="635" />
-        </div>
+        <img src="assets/images/subedore-logo.png" alt="Subedore Tecnologia" width="835" height="635" />
+        <p>Transformando desafios de negócio em soluções digitais.</p>
       </div>
 
-      <div class="footer-contacts" aria-label="Contatos da Subedore Tecnologia">
-        <a href="https://wa.me/5538988018881" target="_blank" rel="noopener noreferrer">
-          <span class="contact-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M20.5 11.8a8.5 8.5 0 0 1-12.6 7.4L3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 20.5 11.8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.3 7.8c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.7 1.7c.1.3 0 .5-.1.7l-.6.7c-.2.2-.2.4-.1.6.5 1.1 1.4 2 2.5 2.6.2.1.4.1.6-.1l.8-.9c.2-.2.4-.2.7-.1l1.6.8c.3.1.4.3.4.5 0 .3-.2 1.4-.9 2-.6.5-1.4.7-2.2.5-1.3-.3-2.9-1-4.6-2.5-1.4-1.3-2.4-2.9-2.7-4.2-.2-.8 0-1.6.4-2.3Z" fill="currentColor"/></svg>
-          </span>
-          <span><small>WhatsApp</small>+55 38 98801-8881</span>
-        </a>
+      <div class="footer-nav">
+        <strong>NAVEGUE POR</strong>
+        <a href="#solucoes">Soluções</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#portfolio">Projetos</a>
+        <a href="#processo">Processo</a>
+      </div>
 
-        <a href="mailto:contato@subedore.com.br">
-          <span class="contact-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="m4.5 7 7.5 6 7.5-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </span>
-          <span><small>E-mail</small>contato@subedore.com.br</span>
-        </a>
-
-        <a href="https://instagram.com/dougglashermes" target="_blank" rel="noopener noreferrer">
-          <span class="contact-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.4" cy="6.7" r="1" fill="currentColor"/></svg>
-          </span>
-          <span><small>Instagram</small>@dougglashermes</span>
-        </a>
+      <div class="footer-contact">
+        <strong>FALE COM A SUBEDORE</strong>
+        <a href="https://wa.me/5538988018881" target="_blank" rel="noopener noreferrer"><small>WhatsApp</small><span>+55 38 98801-8881</span></a>
+        <a href="mailto:contato@subedore.com.br"><small>E-mail</small><span>contato@subedore.com.br</span></a>
+        <a href="https://instagram.com/dougglashermes" target="_blank" rel="noopener noreferrer"><small>Instagram</small><span>@dougglashermes</span></a>
       </div>
     </div>
 
@@ -415,6 +600,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=9.0.0"></script>
 </body>
 </html>
